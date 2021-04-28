@@ -5,17 +5,26 @@
  */
 package semesterfinalproj;
 
+import javafx.application.Application;
+import javafx.stage.Stage;
+
 /**
  *
  * @author MoaathAlrajab
  */
-public class SemesterFinalProj {
+public class SemesterFinalProj extends Application{
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        launch(args);
+       
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        
     }
     
 }
