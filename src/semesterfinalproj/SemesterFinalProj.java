@@ -24,7 +24,8 @@ public class SemesterFinalProj extends Application{
 
     @Override
     public void start(Stage stage) throws Exception {
-        
+        stage.setScene(new Scene());
+        stage.show();
     }
     
 }
